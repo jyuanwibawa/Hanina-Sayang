@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cake Animation -->
+    <div id="cakeAnimation">
+        <img src="assets/kue.png" alt="Kue Ulang Tahun" id="flyingCake">
+    </div>
+    
+    <div class="birthday-container">
+        <h1 class="birthday-text">Happy Birthday</h1>
+        <h2 class="name-text">Hanina Rihadatul'Aisy Alam</h2>
+        <div class="age-text">22 Years Old</div>
+        <div class="cake-container">
+            <img src="assets/Kue.png" alt="Birthday Cake" class="birthday-cake">
+        </div>
+        <div class="card-message">
+            <p>Selamat Ulang Tahun, Sayang 🤍</p>
+            <p>Di hari spesial ini, aku ingin kamu tahu betapa berartinya kamu dalam hidupku. Terima kasih sudah selalu ada, menemani di setiap proses, dan membuat hari-hariku lebih bermakna.</p>
+            <p>Semoga di usia yang baru ini, semua hal baik mendekat, langkahmu selalu dimudahkan, dan apa yang kamu impikan bisa satu per satu terwujud. Aku harap kita bisa terus tumbuh bersama, saling mendukung, dan saling menguatkan.</p>
+            <p>Selamat ulang tahun. Tetap menjadi kamu yang aku kenal dan aku sayangi.</p>
+            <p class="signature">- Dengan Cinta</p>
+            <div class="audio-player">
+                <button id="playButton" class="play-button">
+                    <svg class="play-icon" viewBox="0 0 24 24" fill="#ffffff">
+                        <path d="M8 5v14l11-7z"></path>
+                    </svg>
+                    Putar Ucapan
+                </button>
+                <audio id="birthdayAudio" loop>
+                    <source src="assets/suara_arta.m4a" type="audio/mp4">
+                    Browser Anda tidak mendukung elemen audio.
+                </audio>
+            </div>
+        </div>
+        
+        <!-- Gallery Section -->
+        <div class="gallery-container">
+            <h3 class="gallery-title">galery</h3>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251123-WA0026.jpg" alt="Kenangan 1" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251031-WA0063.jpg" alt="Kenangan 2" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251124-WA0010.jpg" alt="Kenangan 3" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG_20251123_171743_894.webp" alt="Kenangan 4" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251027-WA0036.jpg" alt="Kenangan 5" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251027-WA0054.jpg" alt="Kenangan 6" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251027-WA0069.jpg" alt="Kenangan 7" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251027-WA0075.jpg" alt="Kenangan 8" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251027-WA0082.jpg" alt="Kenangan 9" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251027-WA0089.jpg" alt="Kenangan 10" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251102-WA0069.jpg" alt="Kenangan 11" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251102-WA0147.jpg" alt="Kenangan 12" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251102-WA0150.jpg" alt="Kenangan 13" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251102-WA0196.jpg" alt="Kenangan 14" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/_storage_emulated_0_Android_media_com.whatsapp_WhatsApp_Media_WhatsApp Images_IMG-20251027-WA0051.jpg" alt="Kenangan 15" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/IMG-20251123-WA0020.jpg" alt="Kenangan Spesial" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content-container">
+            <img class="modal-content" id="modalImage">
+            <div class="image-quote">
+                <p id="modalQuote"></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bubble Container -->
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
